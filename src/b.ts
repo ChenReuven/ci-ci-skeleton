@@ -1,5 +1,6 @@
 export class B {
     public getGreeting() {
-        return "hello";
+        const name = 'yossi';
+        return `hello world ${name}`;
     }
 }
