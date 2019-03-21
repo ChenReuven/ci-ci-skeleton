@@ -1,0 +1,28 @@
+{
+  "name": "ci-ci-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "tsc",
+    "build:tsc": "./node_modules/.bin/tsc --watch",
+    "tslint:init": "./node_modules/.bin/tslint --init",
+    "tslint:fix": "./node_modules/.bin/tslint -p . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenReuven/ci-ci-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChenReuven/ci-ci-skeleton/issues"
+  },
+  "homepage": "https://github.com/ChenReuven/ci-ci-skeleton#readme",
+  "dependencies": {
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0"
+  }
+}
